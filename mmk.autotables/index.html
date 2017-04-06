@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en"><head>
+	<meta charset="utf-8" />
+	<title>mmk.autotables demo</title>
+	<script src="Scripts/d3/d3.js"></script>
+	<script src="Scripts/mmk.autotables/mmk.autotables.js"></script>
+	<style type="text/css">
+		table, td, th { border: 1px solid #888; border-collapse: collapse; }
+	</style>
+</head><body>
+	<h1>mmk.autotables demo</h1>
+	<table mmk-autotable-refresh-ms="100" mmk-autotable-src="res/array-array-objects.json" mmk-autotable-xform="[0]"><thead><tr>
+		<th mmk-autotable-src="name" >Name</th>
+		<th mmk-autotable-src="state">State</th>
+	</tr></thead><tbody>
+		<!-- autoTables.ts -->
+	</tbody></table>
+	<br>
+	<table mmk-autotable-refresh-ms="100" mmk-autotable-src="res/array-array-objects.json" mmk-autotable-xform="[-1]"><thead><tr>
+		<th mmk-autotable-src="name" >Name</th>
+		<th mmk-autotable-src="state">State</th>
+	</tr></thead><tbody>
+		<!-- autoTables.ts -->
+	</tbody></table>
+</body></html>

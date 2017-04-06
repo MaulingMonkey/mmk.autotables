@@ -1,0 +1,13 @@
+Thumbs.db
+
+*.sdf
+*.opendb
+*.user
+
+mmk.autotables/Scripts/
+!mmk.autotables/Scripts/mmk.autotables/
+
+packages/
+.vs/
+bin/
+obj/

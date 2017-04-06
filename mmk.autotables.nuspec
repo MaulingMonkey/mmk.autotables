@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>mmk.autotables</id>
+		<version>0.0.0</version>
+		<authors>MaulingMonkey</authors>
+		<owners>MaulingMonkey</owners>
+		<description>MaulingMonKey's "AutoTables".</description>
+		<copyright>Copyright © MaulingMonkey 2017</copyright>
+		<tags>typescript ui json d3</tags>
+		<dependencies>
+			<dependency id="d3"                            version="3.5.17" />
+			<dependency id="d3.TypeScript.DefinitelyTyped" version="2.7.3"  />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="mmk.autotables\src\**\*.ts"                        target="Content\Scripts\mmk.autotables"/>
+		<file src="mmk.autotables\Scripts\mmk.autotables\**\*.js"     target="Content\Scripts\mmk.autotables"/>
+		<file src="mmk.autotables\Scripts\mmk.autotables\**\*.js.map" target="Content\Scripts\mmk.autotables"/>
+	</files>
+</package>
