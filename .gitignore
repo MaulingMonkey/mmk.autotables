@@ -4,9 +4,6 @@ Thumbs.db
 *.opendb
 *.user
 
-mmk.autotables/Scripts/
-!mmk.autotables/Scripts/mmk.autotables/
-
 packages/
 .vs/
 bin/
